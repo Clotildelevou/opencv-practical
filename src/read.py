@@ -1,7 +1,7 @@
 import cv2
 
 #image
-img = cv2.imread("resources/lena.png")
+img = cv2.imread("../resources/lena.png")
 cv2.imshow("Output", img)
 cv2.waitKey(5000)
 
