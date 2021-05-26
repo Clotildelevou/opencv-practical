@@ -1,12 +1,12 @@
 import cv2
 
 #image
-img = cv2.imread("ressources/lena.png")
+img = cv2.imread("resources/lena.png")
 cv2.imshow("Output", img)
 cv2.waitKey(5000)
 
 #video
-cap = cv2.VideoCapture("ressources/test_vid.mp4")
+cap = cv2.VideoCapture("resources/test_vid.mp4")
 while True:
     success, img = cap.read()
     if success:
