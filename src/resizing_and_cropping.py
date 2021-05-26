@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread("../resources/lena.png")
+img = cv2.imread("resources/lena.png")
 
 # resize
 imgResize = cv2.resize(img, (1024, 1024))

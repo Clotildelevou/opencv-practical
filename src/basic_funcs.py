@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread("../resources/lena.png")
+img = cv2.imread("resources/lena.png")
 kernel = np.ones((3,3), np.uint8)
 
 # grayscale

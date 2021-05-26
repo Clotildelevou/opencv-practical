@@ -1,9 +1,9 @@
 import cv2
 
 #image
-img = cv2.imread("../resources/lena.png")
+img = cv2.imread("resources/lena.png")
 cv2.imshow("Output", img)
-cv2.waitKey(5000)
+cv2.waitKey(0)
 
 #video
 cap = cv2.VideoCapture("resources/test_vid.mp4")
